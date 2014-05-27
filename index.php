@@ -14,7 +14,7 @@
 			h2{
 				box-sizing: border-box;
 				font-size: 14px;
-				margin:0;
+				margin:0px;
 				padding: 4px;
 				color: #555;
 			}
