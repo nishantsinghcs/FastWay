@@ -3,251 +3,7 @@
 		<title>
 				FastWay Solutions
 		</title>
-<<<<<<< HEAD
 	<link rel="stylesheet" type="text/css" href="css/style.css" />
-=======
-		<style>
-			body{
-					margin:0px;
-					padding:0px;
-					overflow-x:hidden;
-					font-family: "Segoe UI", tahoma, arial;
-					font-size: 12px;
-			}
-			h2{
-				box-sizing: border-box;
-				font-size: 14px;
-				margin:0px;
-				padding: 4px;
-				color: #555;
-			}
-			.head{
-				width: 1000px;
-				margin: 0 auto;
-			}
-			a{
-				text-decoration:none;
-			}
-			.wrapper{
-						display:inline-block;
-						width:100%;
-						height:100%;
-						
-			}
-			.header_wrapper{
-								display:inline-block;
-								width:100%;
-								height:80px;
-								background: #fbfbfb;
-								border-bottom: 1px solid #ddd;
-								box-shadow: 0 0 3px #c3d1ec;
-			}
-			.slider_wrapper{
-								display:inline-block;
-								width:100%;
-								height:400px;
-								position:relative;
-								box-shadow:0px 0px 4px rgba(0,0,0,0.3) inset;
-								border-bottom:1px solid #ccc;
-			}
-			.slider_inner_wrapper{
-									display:inline-block;
-									width:100%;
-									height:100%;
-									
-			}
-			.container_wrapper{
-								display:inline-block;
-								width:100%;
-								
-								margin-top:0.5%;
-			}
-			.circle_wrapper{
-								display:block;
-								width:75%;
-								margin:auto;
-								
-								margin-bottom:30px;
-			}
-			.circle_div{
-							display:inline-block;
-							width:29%;
-							margin:0% 2%;
-							margin-bottom:20px;
-							float:left;
-							position:relative;
-			}
-			.upper_circle{
-							display:block;
-							height:80px;
-							width:80px;
-							padding: 10px;
-							position:absolute;
-							top:-50px;
-							left:30%;
-							border-radius:100%;
-							border:1px solid #ddd;
-							background:#fff;
-							box-shadow: 0 4px 3px rgba(0, 0, 0, 0.4);
-							z-index:99;
-			}
-			.upper_circle img{
-				padding: 10px;
-			}
-			.lower_circle{
-							display:block;
-							height:300px;
-							width:100%;
-							top:20%;
-							border-top-left-radius:5%;
-							border-top-right-radius:5%;
-							border:1px solid #ccc;
-							box-shadow: 0 0 1px #c3d1ec;
-			}
-			.stat_container{
-								display:block;
-								width:75%;
-								margin:1% auto;
-								
-			}
-			.left_stat{
-							display:inline-block;
-							width:50%;
-							height:89%;
-							margin:0% 2%;
-							float:left;
-							border:1px solid #ddd;
-							border-radius: 4px;
-			}
-			.right_stat{
-							display:inline-block;
-							width:41%;
-							height:80%;
-							margin:0% 2%;
-							
-			}
-			.stat_div{
-						display:inline-block;
-						width:100%;
-						
-						margin:2% 0%;
-						
-						background:#f5f5f5;
-						border: 1px solid #555;
-						box-shadow: 0px 0px 3px rgba(0,0,0,0.6);
-			}
-
-
-
-/* reviews*/
-		.customer-reviews {
-		display: inline-block;
-		padding: 5px 10px;
-		padding-top: 15px;
-		border-radius: 4px;
-		word-wrap: break-word;
-		margin-bottom: 5px;
-		font: 11px "Lucida sans",tahoma;
-		color: #555;
-		background: #f5f5f5;
-		/**/
-}
-.review-writer {
-padding: 5px;
-float:right;
-font: italic 13px georgia;
-color: #444;
-}
-.review-writer p{
-					display:inline-block;
-					float:left;
-					padding-top:6%;
-	}
-.custumer-image{
-				width: 55px;
-				height: 55px;
-				border-radius: 100%;
-				display: inline-block;
-				float: left;
-				padding: 5px;	
-
-}
-.feedbackquoted{
-				height:10px;
-				width:10px;
-
-
-}
-.lfloat{float: left;}
-.rfloat{float:right;}
-.head-lfloat{box-sizing:border-box;}
-.head-rfloat{box-sizing:border-box;}
-.menu{
-	list-style: none;
-	margin: 0;
-	padding:0;
-	padding-top: 4px;
-	float: left;
-}
-.menu li{
-	float: left;
-	box-sizing: border-box;
-	padding: 14px 8px;
-	border-left: 1px solid #ddd;
-}
-.menu li:after{
-	border-left: none;
-	clear: both;
-}
-.menu li{
-	max-width: 180px;
-}
-.menu li.first{border-left: none;}
-.menu li .info{font: 10px arial;}
-.menu li ul{
-	position: absolute;
-	list-style: none;
-	margin: 0;
-	padding: 0;
-	margin-top: 15px;
-	margin-left: -9px;
-	width: inherit;
-	background: #fff;
-	z-index: 3;
-	border: 1px solid #ddd;
-	border-top: none;
-	border-bottom: none;
-	box-shadow: 0 0 3px #c3d1ec;
-	display: none;
-}
-.menu li a{
-	color: #333;
-	padding:30px 0px;
-}
-.menu li:hover ul{display: block;}
-.menu li ul li{
-	float: none;
-	border: none;
-	border-bottom: 1px solid #ddd;
-	padding:10px 8px;
-}
-.menu li:hover{
-	background: #f5f5f5;
-}
-.menu li:hover a{color: #666;}
-.menu li:hover h2{color: #666;}
-.menu li ul li:hover{
-	background: #eee;
-	padding-bottom: 10px;
-}
-.slider_inner_wrapper{
-	width: 1000px;
-	padding-top: 30px;
-	display: block;
-	margin: 0 auto;
-}
-		</style>
->>>>>>> 11b27679337ed34a85d5a538c35265cdbd57633f
 	</head>
 	<body>
 		<div class="body_wrapper">
@@ -380,7 +136,7 @@ color: #444;
 				
 			</div>
 			<div class="mid">
-			
+				<img src="./images/setup.png" class="mid-img">
 			</div>
 			</div>
 		
@@ -388,7 +144,7 @@ color: #444;
 			<div class="cube">
 				
 				<div class="front">
-				1
+				Setup and Installation
 				</div>
 				<div class="back">
 				
@@ -410,7 +166,7 @@ color: #444;
 	</div>
 
 
-<br><br><br><br><br><br>
+<br><br><br>
 
 		<div class="wrapper">
 		<div class="upper">
@@ -418,7 +174,7 @@ color: #444;
 				
 			</div>
 			<div class="mid">
-			
+					<img src="./images/diagnostic.jpg" class="mid-img">
 			</div>
 			</div>
 		
@@ -426,7 +182,7 @@ color: #444;
 			<div class="cube">
 				
 				<div class="front">
-				1
+				Dignostic and Repair
 				</div>
 				<div class="back">
 				
@@ -448,7 +204,7 @@ color: #444;
 	</div>
 
 
-<br><br><br><br><br><br>
+<br><br><br>
 
 		<div class="wrapper">
 		<div class="upper">
@@ -456,7 +212,7 @@ color: #444;
 				
 			</div>
 			<div class="mid">
-			
+			<img src="./images/peripheral.png" class="mid-img">
 			</div>
 			</div>
 		
@@ -464,7 +220,7 @@ color: #444;
 			<div class="cube">
 				
 				<div class="front">
-				1
+				Peripheral Support
 				</div>
 				<div class="back">
 				
@@ -485,6 +241,43 @@ color: #444;
 		</div>
 	</div>
 
+
+<br><br><br>
+
+		<div class="wrapper">
+		<div class="upper">
+			<div class="check">
+				
+			</div>
+			<div class="mid">
+					<img src="./images/virus.png" class="mid-img">
+			</div>
+			</div>
+		
+		<div class="container">
+			<div class="cube">
+				
+				<div class="front">
+				Virus Removal
+				</div>
+				<div class="back">
+				
+				</div>
+				<div class="top">
+				3
+				</div>
+				<div class="bottom">
+				
+				</div>
+				<div class="left">
+				
+				</div>
+				<div class="right">
+				
+				</div>
+			</div>
+		</div>
+	</div>
 
 
 
