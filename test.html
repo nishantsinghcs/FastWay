@@ -1,0 +1,316 @@
+<html>
+	<head>
+		<title>Check</title>
+		<style>
+			boody{
+				
+			}
+			.wrapper{
+						display:inline-block;
+						width:440px;
+						height:100px;
+
+						cursor:pointer;
+			}
+			.upper{
+						display:inline-block;
+						width:100px;
+						height:100px;
+						float:left;
+						background:#5ed8ee;
+						position:relative;
+						border-radius:200px;
+						cursor:pointer;
+			}
+			.wrapper:hover .check{
+						animation:myfirst 0.4s;
+						transform:rotate(180deg);
+						transform-origin: left bottom;
+						-moz-animation:myfirst 0.4s;
+						-moz-transform:rotate(180deg);
+						-moz-transform-origin: left bottom;
+						-webkit-animation:myfirst 0.4s;
+						-webkit-transform:rotate(180deg);
+						-webkit-transform-origin: left bottom;
+						background:#111;
+			}
+			@keyframes myfirst{
+				from{
+						-moz-transform:rotate(0deg);
+						-moz-transform-origin: left bottom;
+						background:#ddeeff;
+				}
+				to{
+					-moz-transform:rotate(180deg);
+					-moz-transform-origin: left bottom;
+					background:#111;
+				}
+			}
+			@-webkit-keyframes myfirst{
+				from{
+						-moz-transform:rotate(0deg);
+						-moz-transform-origin: left bottom;
+						background:#ddeeff;
+				}
+				to{
+					-moz-transform:rotate(180deg);
+					-moz-transform-origin: left bottom;
+					background:#111;
+				}
+			}
+			.check{
+					display:block;
+					width:50px;
+					height:50px;
+					background:#ddeeff;
+					position:absolute;
+					right:0px;
+					border-top-right-radius:50px;
+					transition-property:transform background;
+					transition-duration:0.4s;
+					transition-timing-function:linear;
+					transform-origin: left bottom;
+					-moz-transition-property:transform background;
+					-moz-transition-duration:0.4s;
+					-moz-transition-timing-function:linear;
+					-moz-transform-origin: left bottom;
+					-webkit-transition-property:transform background;
+					-webkit-transition-duration:0.4s;
+					-webkit-transition-timing-function:linear;
+					-webkit-transform-origin: left bottom;
+					
+			}
+			.mid{
+					display:block;
+					width:75px;
+					height:75px;
+					position:absolute;
+					top:12.5px;
+					left:12.5px;
+					background:#aabbcc;
+					border-radius:150px;
+			}
+			.text_box{
+						display:inline-block;
+						width:300px;
+						height:90px;
+						float:left;
+						position:relative;
+						
+						margin:5px 20px;
+						background:#00ffee;
+						
+			}
+			
+			
+		.container{
+							 width: 300px;
+							  height: 90px;
+							  position: relative;
+							  margin: 0 auto 40px;
+							 float:left;
+							 margin:5px 20px;
+							  -webkit-perspective: 800px;
+								 -moz-perspective: 800px;
+								   -o-perspective: 800px;
+									  perspective: 800px;
+				}
+				.cube{
+						display:inline-block;
+						width:100%;
+						height:100%;
+						-webkit-transform-style: preserve-3d;
+							-moz-transform-style: preserve-3d;
+								-o-transform-style: preserve-3d;
+									transform-style: preserve-3d;
+						
+				}
+				.cube div{
+						display:inline-block;
+						width:100%;
+						height:100%;
+						position:absolute;
+						opacity:0.8;
+						font-size:100px;
+						text-align:center;
+						background:#aabbcc;
+						line-height: 100px;
+						box-shadow:0px 0px 4px #111;
+						border:1px solid #111;
+						-webkit-transition-property:transform;
+					-webkit-transition-duration:0.4s;
+					-webkit-transition-timing-function:linear;
+							-moz-transition: transform 0.4s;
+								-o-transition: transform 0.4s;
+									transition: transform 0.4s;
+				}
+				.cube .left{
+							width:90px;
+				}
+				.cube .right{
+							width:90px;
+				}
+				
+				
+	.front {
+      -webkit-transform: rotateY(   0deg ) translateZ( 45px );
+         -moz-transform: rotateY(   0deg ) translateZ( 45px );
+           -o-transform: rotateY(   0deg ) translateZ( 45px );
+              transform: rotateX(   0deg ) translateZ( 45px );
+			 
+			  
+    }
+     .back {
+      -webkit-transform: rotateX( 180deg ) translateZ( 45px );
+         -moz-transform: rotateX( 180deg ) translateZ( 45px );
+           -o-transform: rotateX( 180deg ) translateZ( 45px );
+              transform: rotateX( 180deg ) translateZ( 45px );
+    }
+  .right {
+		
+      -webkit-transform: rotateY(  90deg ) translateZ( 255px );
+         -moz-transform: rotateY(  90deg ) translateZ( 255px );
+           -o-transform: rotateY(  90deg ) translateZ( 255px );
+              transform: rotateY(  90deg ) translateZ( 255px );
+    }
+  .left {
+      -webkit-transform: rotateY( -90deg ) translateZ( 45px );
+         -moz-transform: rotateY( -90deg ) translateZ( 45px );
+           -o-transform: rotateY( -90deg ) translateZ( 45px );
+              transform: rotateY( -90deg ) translateZ( 45px );
+    }
+  .top {
+      -webkit-transform: rotateX(  90deg ) translateZ( 45px );
+         -moz-transform: rotateX(  90deg ) translateZ( 45px );
+           -o-transform: rotateX(  90deg ) translateZ( 45px );
+              transform: rotateX(  90deg ) translateZ( 45px ) ;
+			  
+			
+    }
+ .bottom {
+      -webkit-transform: rotateX( -90deg ) translateZ( 45px );
+         -moz-transform: rotateX( -90deg ) translateZ( 45px );
+           -o-transform: rotateX( -90deg ) translateZ( 45px );
+              transform: rotateX( -90deg ) translateZ( 45px );
+    }
+				
+		
+		
+		
+		.wrapper:hover .back { 
+							 -moz-transform: rotateX(90deg) translateZ(45px) ;
+								 -webkit-transform: rotateX(90deg) translateZ(45px) ;
+									 -o-transform: rotateX(90deg) translateZ(45px) ;
+										 transform: rotateX(90deg) translateZ(45px) ;
+								}
+		.wrapper:hover .front { 
+							 -moz-transform: rotateX(-90deg) translateZ(45px) ;
+								 -webkit-transform: rotateX(-90deg) translateZ(45px) ;
+									 -o-transform: rotateX(-90deg) translateZ(45px) ;
+										 transform: rotateX(-90deg) translateZ(45px) ;
+								}
+		
+		.wrapper:hover .bottom { 
+							 -moz-transform: rotateX(-180deg) translateZ(45px) ;
+								-webkit-transform: rotateX(-180deg) translateZ(45px) ;
+									-o-transform: rotateX(-180deg) translateZ(45px) ;
+										transform: rotateX(-180deg) translateZ(45px) ;
+								}
+		.wrapper:hover .top { 
+							 -moz-transform: rotateX(0deg) translateZ(45px) ;
+								-webkit-transform: rotateX(0deg) translateZ(45px) ;
+									-o-transform: rotateX(0deg) translateZ(45px) ;
+										transform: rotateX(0deg) translateZ(45px) ;
+								}
+		.wrapper:hover .left { 
+							 -moz-transform:rotateY(-90deg) translateZ(45px) rotateZ(90deg);
+								-webkit-transform:rotateY(-90deg) translateZ(45px) rotateZ(90deg);	
+									-o-transform:rotateY(-90deg) translateZ(45px) rotateZ(90deg);
+										transform:rotateY(-90deg) translateZ(45px) rotateZ(90deg);
+								}
+		.wrapper:hover .right { 
+							 -moz-transform:rotateY(90deg) translateZ(255px) rotateZ(-90deg);
+								-webkit-transform:rotateY(90deg) translateZ(255px) rotateZ(-90deg);
+									-o-transform:rotateY(90deg) translateZ(255px) rotateZ(-90deg);
+										transform:rotateY(90deg) translateZ(255px) rotateZ(-90deg);
+								}
+			
+			
+<!--
+	upper class:
+		Wu=x;
+		Hu=Wu;
+		BRu=2*Wu;
+	
+	check class:
+		Wc=Wu/2;
+		Hc=Wc;
+		Rc=0px;
+		BTRRc=Wc;
+		
+	mid class:
+		Wm=3*Wu/4;
+		Hm=Wm;
+		Tm=(Wu-Wm)/2;
+		Lm=Tm;
+		BRm=2*Wm;
+		
+	where
+		Wu= width of upper class,
+		Hu= height of upper class,
+		BRu= border radius of upper class,
+		Wc= width of check class,
+		Hc= height of check class,
+		Rc= Right property of check class,
+		BTRRc= border top right radius property of check class,
+		Wm= width of mid class,
+		Hm= height of mid class,
+		Tm= top property of mid class,
+		Lm= left property of mid class,
+		BRm= border radius of mid class.
+-->
+		</style>
+	</head>
+	<body>
+	
+	<div class="wrapper">
+		<div class="upper">
+			<div class="check">
+				
+			</div>
+			<div class="mid">
+			
+			</div>
+		</div>
+		
+		<div class="container">
+			<div class="cube">
+				
+				<div class="front">
+				1
+				</div>
+				<div class="back">
+				
+				</div>
+				<div class="top">
+				3
+				</div>
+				<div class="bottom">
+				
+				</div>
+				<div class="left">
+				
+				</div>
+				<div class="right">
+				
+				</div>
+			</div>
+		</div>
+	
+	</div>
+	
+	
+		
+		
+	</body>
+</html>
