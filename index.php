@@ -82,7 +82,8 @@
 			</div>
 			
 			<div class="container_wrapper">
-			
+				<!-- Step 1 2 3 started-->
+				<div class="circle_outer_wrapper">
 				<div class="circle_wrapper">
 					
 					<div class="circle_div">
@@ -92,7 +93,18 @@
 						</div>
 						
 						<div class="lower_circle" style="background: orange;border: 1px solid #ff0000">
-						
+									<ul>
+												<li>
+												Call us at: <label class="bigger">203-129-5102</label>
+												</li>
+												<li>
+												Our Tech Evangelist will hear to your problem and will guide you to step 2.
+												</li>
+												<li>
+												You can also get started through the Live Chat option on this page.
+												</li>
+												Note: Irreleveant Chats are immediatley blocked.
+										</ul>
 						</div>
 					
 					</div>
@@ -104,7 +116,8 @@
 						</div>
 						
 						<div class="lower_circle" style="background: #008fff;border: 1px solid #0050ff;">
-						
+										
+
 						</div>
 					
 					</div>
@@ -123,166 +136,163 @@
 					
 				
 				</div>
-				
+				</div>
+				<!-- Step 1 2 3 ended-->
+				<div class="stat_container_wrapper">
 				<div class="stat_container">
 					
 					<div class="left_stat">
 						<center><h1>SERVICES HERE</h1></center>
 
 
-		<div class="wrapper">
-			<div class="upper">
-			<div class="check">
-				
-			</div>
-			<div class="mid">
-				<img src="./images/setup.png" class="mid-img">
-			</div>
-			</div>
-		
-		<div class="container">
-			<div class="cube">
-				
-				<div class="front">
-				Setup and Installation
-				</div>
-				<div class="back">
-				
-				</div>
-				<div class="top">
-				3
-				</div>
-				<div class="bottom">
-				
-				</div>
-				<div class="left">
-				
-				</div>
-				<div class="right">
-				
-				</div>
-			</div>
-		</div>
-	</div>
+						<div class="wrapper">
+							<div class="upper">
+								<div class="check">
+									
+								</div>
+								<div class="mid">
+									<img src="./images/setup.png" class="mid-img">
+								</div>
+							</div>
+						
+							<div class="container">
+								<div class="cube">
+								
+									<div class="front">
+										Setup and Installation
+									</div>
+									<div class="back">
+									
+									</div>
+									<div class="top">
+										3
+									</div>
+									<div class="bottom">
+								
+									</div>
+									<div class="left">
+									
+									</div>
+									<div class="right">
+								
+									</div>
+								</div>
+							</div>
+						</div>
 
 
-<br><br><br>
+						<br><br><br>
 
-		<div class="wrapper">
-		<div class="upper">
-			<div class="check">
-				
-			</div>
-			<div class="mid">
-					<img src="./images/diagnostic.jpg" class="mid-img">
-			</div>
-			</div>
-		
-		<div class="container">
-			<div class="cube">
-				
-				<div class="front">
-				Dignostic and Repair
-				</div>
-				<div class="back">
-				
-				</div>
-				<div class="top">
-				3
-				</div>
-				<div class="bottom">
-				
-				</div>
-				<div class="left">
-				
-				</div>
-				<div class="right">
-				
-				</div>
-			</div>
-		</div>
-	</div>
-
-
-<br><br><br>
-
-		<div class="wrapper">
-		<div class="upper">
-			<div class="check">
-				
-			</div>
-			<div class="mid">
-			<img src="./images/peripheral.png" class="mid-img">
-			</div>
-			</div>
-		
-		<div class="container">
-			<div class="cube">
-				
-				<div class="front">
-				Peripheral Support
-				</div>
-				<div class="back">
-				
-				</div>
-				<div class="top">
-				3
-				</div>
-				<div class="bottom">
-				
-				</div>
-				<div class="left">
-				
-				</div>
-				<div class="right">
-				
-				</div>
-			</div>
-		</div>
-	</div>
+						<div class="wrapper">
+							<div class="upper">
+								<div class="check">
+								
+								</div>
+								<div class="mid">
+									<img src="./images/diagnostic.jpg" class="mid-img">
+								</div>
+							</div>
+					
+							<div class="container">
+								<div class="cube">
+								
+									<div class="front">
+										Dignostic and Repair
+									</div>
+									<div class="back">
+								
+									</div>
+									<div class="top">
+										3
+									</div>
+									<div class="bottom">
+							
+									</div>
+									<div class="left">
+									
+									</div>
+									<div class="right">
+								
+									</div>
+								</div>
+							</div>
+						</div>
 
 
-<br><br><br>
+						<br><br><br>
 
-		<div class="wrapper">
-		<div class="upper">
-			<div class="check">
-				
-			</div>
-			<div class="mid">
-					<img src="./images/virus.png" class="mid-img">
-			</div>
-			</div>
-		
-		<div class="container">
-			<div class="cube">
-				
-				<div class="front">
-				Virus Removal
-				</div>
-				<div class="back">
-				
-				</div>
-				<div class="top">
-				3
-				</div>
-				<div class="bottom">
-				
-				</div>
-				<div class="left">
-				
-				</div>
-				<div class="right">
-				
-				</div>
-			</div>
-		</div>
-	</div>
-
-
+						<div class="wrapper">
+							<div class="upper">
+								<div class="check">
+									
+								</div>
+								<div class="mid">
+									<img src="./images/peripheral.png" class="mid-img">
+								</div>
+							</div>
+						
+							<div class="container">
+								<div class="cube">
+									
+									<div class="front">
+										Peripheral Support
+									</div>
+									<div class="back">
+									
+									</div>
+									<div class="top">
+										3
+									</div>
+									<div class="bottom">
+									
+									</div>
+									<div class="left">
+									
+									</div>
+									<div class="right">
+									
+									</div>
+								</div>
+							</div>
+						</div>
 
 
+						<br><br><br>
 
+						<div class="wrapper">
+							<div class="upper">
+								<div class="check">
+									
+								</div>
+								<div class="mid">
+										<img src="./images/virus.png" class="mid-img">
+								</div>
+							</div>
+						
+							<div class="container">
+								<div class="cube">
+									
+									<div class="front">
+										Virus Removal
+									</div>
+									<div class="back">
+									
+									</div>
+									<div class="top">
+										3
+									</div>
+									<div class="bottom">
+									
+									</div>
+									<div class="left">
+									
+									</div>
+									<div class="right">
+									
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
 					
 					<div class="right_stat">
@@ -330,7 +340,7 @@
 					</div>
 					
 				</div>
-
+				</div>
 
 					<div style="height:200px;margin-top:100px;width:100%;border:2px solid #000">
 							<center><h1>BOTTOM</h1></center>
